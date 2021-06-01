@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$bodyFont: "Poppins", sans-serif;
+$bigFonts: 28px;
+$textSize: 16px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: $bodyFont;
+  background-image: url("./assets/img/wallpapers.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar-ul {
+  display: inline-block;
+  width: 100%;
+}
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: $bigFonts;
+}
+
+.card {
+  h3 {
+    text-align: center;
+    border: 1px solid #333;
+    text-transform: uppercase;
+    font-size: $textSize;
+    letter-spacing: 5px;
+  }
+  .form-check {
+    margin-bottom: 15px;
+  }
+}
